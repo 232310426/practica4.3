@@ -1,0 +1,37 @@
+.ct-series-a .ct-line {
+    stroke: crimson;
+    stroke-width: 3px;
+}
+.ct-series-b .ct-line {
+    stroke: seagreen;
+    stroke-width: 3px;
+}
+.ct-series-a .ct-point {
+    stroke: crimson;
+}
+.ct-series-b .ct-point {
+    stroke: seagreen;
+}
+
+.temp-box {
+    width: 50px;
+    height: 20px;
+    display: inline-block;
+}
+.temp {
+    display: inline-flex;
+}
+.max {
+    background-color: crimson;
+}
+.min {
+    background-color: seagreen;
+}
+.subt {
+    display: block;
+    color: blueviolet;
+    font-size: large;
+}
+.centro {
+    text-align: center;
+}
